@@ -1,0 +1,62 @@
+https://ai.google.dev/edge/mediapipe/solutions/guide?hl=pt-br
+
+# Projeto para empresa de carro
+Criar um algoritmo para detectar estado de sonolência em motoristas de carro
+Protótipo para essa aplicação
+
+Aula 1:
+Nessa aula, você aprendeu a:
+Estruturar o ambiente para um projeto de visão computacional;
+Compreender como podemos fazer uma captura em tempo real com OpenCV;
+Processar um frame para detecção de face com MediaPipe Face Mesh; e
+Construir e melhorar uma visualização de pontos faciais.
+
+Aula 2:
+Nessa aula, você aprendeu a:
+Identificar as coordenadas e os pontos da solução Face Mesh;
+Localizar e exibir os pontos que representam os olhos direito e esquerdo;
+Interpretar as coordenadas do MediaPipe;
+Explorar o estado da arte para criação de um projeto;
+Formular o cálculo do índice de nível de abertura dos olhos; e
+Desenvolver o cálculo de EAR em código.
+
+Aula 3:
+Nessa aula, você aprendeu a:
+Localizar e exibir os pontos que representam os lábios da boca;
+Formular o cálculo do índice de nível de abertura da boca; e
+Desenvolver o cálculo de MAR em código.
+
+Aula 4:
+Nessa aula, você aprendeu a:
+Estudar os pontos de melhoria de uma aplicação;
+Manipular a aplicação do MediaPipe para solucionar o problema; e
+Utilizar a biblioteca time para verificar a frequência de eventos.
+
+
+Melhorias do protótipo:
+- scan do motorista para saber limiares
+- verificação de piscadas
+- verificação de piscadas por minuto
+- integração do projeto à nuvem
+- integração aos componentes eletrônicos do carro
+
+# Outra visualização:
+# coloca o retângulo
+cv2.rectangle(frame, (200, 400), (450, 440), (109, 233, 219), -1)
+# Texto a depender do resultado
+cv2.putText(frame, f"{'COM SONOLENCIA' if piscadas_pm < 10 or tempo>=1.5 else 'SEM SONOLENCIA'}", (210, 430), cv2.FONT_HERSHEY_DUPLEX, 0.85, (58,58,55), 1)
+
+# Links de outros funcionalidades mediapipe
+
+https://research.google/blog/mediapipe-holistic-simultaneous-face-hand-and-pose-prediction-on-device/
+
+https://research.google/blog/on-device-real-time-hand-tracking-with-mediapipe/
+
+https://research.google/blog/background-features-in-google-meet-powered-by-web-ml/
+
+https://research.google/blog/real-time-ar-self-expression-with-machine-learning/
+
+https://codepen.io/mediapipe
+
+https://mediapipe.dev/demo/holistic_remote/
+
