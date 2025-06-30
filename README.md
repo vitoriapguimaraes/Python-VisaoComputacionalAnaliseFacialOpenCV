@@ -1,4 +1,4 @@
-# Drowsiness Detection with OpenCV and MediaPipe
+# Detecção de sonolência com OpenCV e MediaPipe
 
 > Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
 
