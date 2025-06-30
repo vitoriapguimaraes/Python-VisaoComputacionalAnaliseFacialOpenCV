@@ -1,53 +1,59 @@
-# Nome do Projeto
+# Detecção de sonolência com OpenCV e MediaPipe
 
-> Breve descrição do projeto em 2-3 frases, explicando o propósito, motivação e problema que resolve.
+> Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
 
 ![Demonstração do sistema](link-para-gif-ou-imagem)
 
 ## Funcionalidades Principais
 
-- Liste as principais funcionalidades do projeto.
-- Destaque o que é inovador ou diferencial.
+- Detecção em tempo real de pontos faciais usando MediaPipe Face Mesh.
+- Cálculo do índice de abertura dos olhos (EAR) e da boca (MAR).
+- Identificação de piscadas e bocejos.
+- Alerta visual para possíveis sinais de sonolência (ex: baixa frequência de piscadas ou olhos fechados por tempo prolongado).
+- Exibição de métricas na tela: EAR, MAR, contagem de piscadas, tempo de olhos fechados.
+- Código modular e fácil de adaptar para integração com sistemas automotivos ou nuvem.
 
 ## Tecnologias Utilizadas
 
-- Liste as principais tecnologias, frameworks e bibliotecas.
+- Python 3
+- OpenCV
+- MediaPipe
+- NumPy
 
 ## Como Executar
 
-1. Clone o repositório:
-   ```
-   git clone https://github.com/usuario/repositorio.git
-   ```
+1. Clone o repositório.
 2. Instale as dependências:
    ```
-   comando de instalação
+   pip install opencv-python mediapipe numpy
    ```
 3. Execute o projeto:
    ```
-   comando para rodar
+   python scripts/main.ipynb
    ```
+   > Ou execute o notebook no Jupyter/VSCode.
 
 ## Como Usar
 
-- Explique como acessar e testar as principais funcionalidades.
-- Se necessário, inclua exemplos de uso ou prints.
+- Certifique-se de que sua webcam está conectada.
+- Execute o notebook `scripts/main.ipynb`.
+- Observe as métricas e alertas na janela de vídeo.
+- Para encerrar, pressione a tecla `c` na janela da câmera.
 
 ## Estrutura de Diretórios
 
 ```
-/nome-do-projeto
-├── src/
-├── data/
-├── results/
-└── README.md
+/Python-VisaoComputacionalAnaliseFacialOpenCV
+├── class_files/         # Notebooks de aula, PDFs e anotações
+├── scripts/             # Notebook principal do projeto
+│   └── main.ipynb
+├── README.md
+└── LICENSE
 ```
 
 ## Status
 
-- ✅ Concluído
-- 🛠️ Em manutenção
-- 🚧 Em desenvolvimento
+✅ Concluído
 
 > Veja as [issues abertas](https://github.com/usuario/repositorio/issues) para sugestões de melhorias e próximos passos.
 
