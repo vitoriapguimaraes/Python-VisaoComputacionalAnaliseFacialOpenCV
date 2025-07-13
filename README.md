@@ -2,7 +2,7 @@
 
 > Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
 
-![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV/blob/main/results/display.gif)
+![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV/blob/main/results/display.gif)
 
 ## Funcionalidades Principais
 
@@ -55,7 +55,7 @@
 
 ✅ Concluído
 
-> Veja as [issues abertas](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV/issues) para sugestões de melhorias e próximos passos.
+> Veja as [issues abertas](https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV/issues) para sugestões de melhorias e próximos passos.
 
 ## Mais Sobre Mim
 
